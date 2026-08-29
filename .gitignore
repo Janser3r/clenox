@@ -1,5 +1,7 @@
 # Material fuente; no es necesario para publicar el sitio.
 *.pdf
+assets/staycare/preview-*
+assets/staycare/source-*
 
 # Archivos locales del sistema y editores.
 .DS_Store
