@@ -1,6 +1,6 @@
 # Sitio web CLENOX Services
 
-Landing estática, responsive y sin dependencias, preparada para `clenox.ramosapps.com`.
+Landing estática, responsive y sin dependencias, publicada mediante GitHub Pages en `clenox.ramosapps.com`.
 
 ## Contacto configurado
 
@@ -8,4 +8,4 @@ El formulario abre WhatsApp con la solicitud completa al número `+57 316 115 45
 
 ## Publicación
 
-Sube `index.html`, `styles.css`, `app.js`, `robots.txt`, `sitemap.xml` y la carpeta `assets` a la raíz pública del subdominio. No necesita compilación.
+GitHub Pages publica la rama `main` desde la raíz del repositorio. El archivo `CNAME` vincula el dominio personalizado. No necesita compilación.
