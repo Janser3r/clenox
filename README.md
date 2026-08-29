@@ -4,7 +4,7 @@ Landing estática, responsive y sin dependencias, publicada mediante GitHub Page
 
 ## Contacto configurado
 
-El formulario abre WhatsApp con la solicitud completa al número `+57 316 115 4523`. El sitio también muestra el correo `incomsascolombia@gmail.com` y la ubicación en Jamundí, Valle del Cauca.
+El formulario abre WhatsApp con la solicitud completa al número `+57 321 580 9250`. El sitio también muestra el correo `gerenciaclenoxservices@gmail.com` y la ubicación en Jamundí, Valle del Cauca.
 
 ## Publicación
 
