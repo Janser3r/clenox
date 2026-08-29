@@ -4,7 +4,7 @@ Landing estática, responsive y sin dependencias, publicada mediante GitHub Page
 
 ## Contacto configurado
 
-El formulario abre WhatsApp con la solicitud completa al número `+57 321 580 9250`. El sitio también muestra el correo `gerenciaclenoxservices@gmail.com` y la ubicación en Jamundí, Valle del Cauca.
+El formulario abre WhatsApp con la solicitud completa al número `+57 321 580 9250`. El sitio también muestra los correos `clenoxservices@gmail.com`, `gerenciaclenoxservices@gmail.com` y `gestionhumanaclenoxservices@gmail.com`, además de la ubicación en Jamundí, Valle del Cauca.
 
 ## Publicación
 
