@@ -50,3 +50,29 @@ form?.addEventListener("submit", (event) => {
   else window.location.href = url;
   status.textContent = "Abriendo WhatsApp…";
 });
+
+const dynamicCards = document.querySelectorAll(
+  ".plan, .membership-grid article, .service-line-card, .staycare-service, .staycare-memberships article",
+);
+const canAnimateCards =
+  matchMedia("(hover: hover) and (pointer: fine)").matches &&
+  !matchMedia("(prefers-reduced-motion: reduce)").matches;
+
+dynamicCards.forEach((card, index) => {
+  card.classList.add("dynamic-card");
+  card.style.setProperty("--card-index", index % 6);
+  if (!canAnimateCards) return;
+  card.addEventListener("pointermove", (event) => {
+    const rect = card.getBoundingClientRect();
+    const x = (event.clientX - rect.left) / rect.width;
+    const y = (event.clientY - rect.top) / rect.height;
+    card.style.setProperty("--pointer-x", `${x * 100}%`);
+    card.style.setProperty("--pointer-y", `${y * 100}%`);
+    card.style.setProperty("--rotate-x", `${(0.5 - y) * 5}deg`);
+    card.style.setProperty("--rotate-y", `${(x - 0.5) * 6}deg`);
+  });
+  card.addEventListener("pointerleave", () => {
+    card.style.removeProperty("--rotate-x");
+    card.style.removeProperty("--rotate-y");
+  });
+});
