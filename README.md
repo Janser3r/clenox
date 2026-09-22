@@ -1,6 +1,6 @@
 # Sitio web CLENOX Services
 
-Landing estática, responsive y sin dependencias, publicada mediante GitHub Pages en `clenox.ramosapps.com`.
+Landing estática, responsive y sin dependencias, publicada mediante GitHub Pages en `clenoxsas.com`.
 
 El sitio reúne dos líneas independientes de servicio:
 
